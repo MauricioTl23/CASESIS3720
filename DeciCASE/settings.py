@@ -7,7 +7,7 @@ SECRET_KEY = '7455337MdTl'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://casesis3720.onrender.com']
+ALLOWED_HOSTS = ['casesis3720.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
