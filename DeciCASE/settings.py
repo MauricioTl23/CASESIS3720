@@ -7,7 +7,7 @@ SECRET_KEY = '7455337MdTl'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['casesis3720.onrender.com']
+ALLOWED_HOSTS = ['casesis3720.onrender.com', '.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -21,6 +21,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
